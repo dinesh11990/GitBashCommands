@@ -1,0 +1,42 @@
+https://www.youtube.com/watch?v=73I5dRucCds&spfreload=5
+
+
+Commands:
+step:1 - configure
+git config --global user.name "dinesh11990"
+git config --global user.email "dinesh11990@gmail.com"
+
+step:2 - create repository
+cd Desktop/
+ls
+clear 
+git clone https://github.com/dinesh11990/TestGitHub.git
+
+cd TestGitHub/
+vim README.md 
+do some changes
+git status
+git add README.md
+git commit -m "any message"
+git commit -help
+git log
+git remote add origin https://github.com/dinesh11990/TestGitHub.git 
+git push -u(saves) origin master(branch)
+username and password
+done
+
+
+touch test.txt
+ls
+vim test.txt
+git status
+git add . (to track files)
+git commit -m "test file"
+git log
+git status
+git push 
+username and password
+
+
+git pull origin master
+
